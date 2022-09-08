@@ -1,6 +1,8 @@
 {
   "ids": {
-    "Todo": 5
+    "Todo": 5,
+    "User": 2,
+    "UserCredentials": 2
   },
   "models": {
     "Todo": {
@@ -8,6 +10,12 @@
       "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2}",
       "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
       "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}"
+    },
+    "User": {
+      "7f236369-c68c-4aac-adbf-5721aa9fa0aa": "{\"id\":\"7f236369-c68c-4aac-adbf-5721aa9fa0aa\",\"realm\":\"asd\",\"username\":\"asdf\",\"email\":\"asdf@asdf.asdf\",\"emailVerified\":true,\"verificationToken\":\"asdfasdf\"}"
+    },
+    "UserCredentials": {
+      "93a26b02-a295-4772-869f-f08482a8d5d7": "{\"id\":\"93a26b02-a295-4772-869f-f08482a8d5d7\",\"password\":\"$2a$10$oE3ZG35lDQF8/NPKg2J6P.0N9q81d2pvgsqMxhmDgzNCnTwHWiIY6\",\"userId\":\"7f236369-c68c-4aac-adbf-5721aa9fa0aa\"}"
     }
   }
 }

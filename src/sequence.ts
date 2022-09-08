@@ -23,8 +23,8 @@ export class MySequence implements SequenceHandler {
     @inject(SequenceActions.FIND_ROUTE) protected findRoute: FindRoute,
     @inject(SequenceActions.PARSE_PARAMS) protected parseParams: ParseParams,
     @inject(SequenceActions.INVOKE_METHOD) protected invoke: InvokeMethod,
-    @inject(SequenceActions.INVOKE_METHOD) protected send: Send,
-    @inject(SequenceActions.INVOKE_METHOD) protected reject: Reject,
+    @inject(SequenceActions.SEND) protected send: Send,
+    @inject(SequenceActions.REJECT) protected reject: Reject,
   ) {}
   async handle(context: RequestContext): Promise<void> {
     try {
